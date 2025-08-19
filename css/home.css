@@ -1,26 +1,199 @@
 body {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-family: Arial, sans-serif;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.page1 { background: url("imagens/1.png") no-repeat center/cover; }
-.page2 { background: url("imagens/2.png") no-repeat center/cover; }
-.page3 { background: url("imagens/3.png") no-repeat center/cover; }
-.page4 { background: url("imagens/4.png") no-repeat center/cover; }
-.page5 { background: url("imagens/5.png") no-repeat center/cover; }
-.page6 { background: url("imagens/6.png") no-repeat center/cover; }
-.page7 { background: #f5f5f5; color: black; }
-.page8 { background: #e0e0e0; color: black; }
-.page9 { background: #111; color: white; }
+.page1 { 
+  background-image: url("../assets/bg1.png");  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
 
-.logo {
+.logo-senai {
   width: 120px;
   margin: 20px;
+  display: flex;
+}
+
+.interclasses {
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  color: #969494;
+  font-size: 80px;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 300px;
+  margin-bottom: 0;
+}
+
+.nome-escola {
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+}
+
+.data-evento {
+  color: rgb(219, 35, 35);
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 250px;
+}
+
+.page2 { 
+  background: url("../assets/bg2.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.intro1 {
+  width: 1000px;
+  white-space: pre-line;
+  text-align: right;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  justify-self: right;
+  margin-right: 150px;
+  margin-top: 350px;
+}
+
+.intro2 {
+  white-space: pre-line;
+  text-align: right;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  justify-self: right;
+  margin-right: 150px;
+}
+
+.page3 { 
+  background: url("../assets/bg3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.futebol1 {
+  white-space: pre-line;
+  text-align: left;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 350px;
+}
+
+.futebol2 {
+  white-space: pre-line;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+}
+
+.page4 { 
+  background: url("../assets/bg4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.volei1 {
+  white-space: pre-line;
+  text-align: left;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 350px;
+}
+
+.volei2 {
+  white-space: pre-line;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+}
+
+.page5 { 
+  background: url("../assets/bg5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.natacao1 {
+  white-space: pre-line;
+  text-align: left;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 350px;
+}
+
+.natacao2 {
+  white-space: pre-line;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+}
+
+.page6 { 
+  background: url("../assets/bg6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.page7 { 
+  background: lab(90.59% 0 -0.01); color: rgb(39, 39, 39);
+  height: 990PX;
+
+}
+.box-all {
+  margin-top: 200px;
+}
+.box-formulario {
+  background-color: #c5c5c5;
+  height: 500px;
+  width: 500px;
+  border-radius: 30px;
+  justify-self: center;
+}
+
+.page8 { 
+  background: #757575; color: black;
+  
+}
+
+.page9 { 
+  background: #222222; color: white;
+  
 }
