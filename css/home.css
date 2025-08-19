@@ -172,20 +172,46 @@ body {
   width: 100%;
 }
 
+.tenis1 {
+  white-space: pre-line;
+  text-align: left;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 350px;
+}
+
+.tenis2 {
+  white-space: pre-line;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  justify-self: left;
+  margin-left: 150px;
+}
+
 .page7 { 
-  background: lab(90.59% 0 -0.01); color: rgb(39, 39, 39);
+  background: lab(34.88% 0 0); color: rgb(39, 39, 39);
   height: 990PX;
 
 }
 .box-all {
   margin-top: 200px;
 }
+
 .box-formulario {
-  background-color: #c5c5c5;
+  background-color: #1d1d1d;
   height: 500px;
   width: 500px;
-  border-radius: 30px;
+  border-radius: 20px;
   justify-self: center;
+}
+
+.nome-completo {
+  color: whitesmoke;
+  text-align: left;
+  
 }
 
 .page8 { 
