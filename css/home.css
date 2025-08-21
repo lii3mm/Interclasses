@@ -97,13 +97,6 @@ body {
   width: 100%;
 }
 
-.box-futebol {
-  position: relative;
-  background-color: #353535;
-  opacity: 0.5;
-  z-index: 1;
-}
-
 .futebol {
   color: rgb(230, 230, 230);
   text-shadow: 0 0 2px rgb(221, 221, 221),
@@ -116,8 +109,6 @@ body {
   margin-left: 250px;
   margin-top: 300px;
   margin-bottom: inherit;
-  position: relative;
-  z-index: 2;
 }
 
 .futebol1 {
@@ -131,8 +122,6 @@ body {
   justify-self: left;
   margin-left: 250px;
   margin-top: 20px;
-  position: relative;
-  z-index: 2;
 }
 
 .futebol2 {
@@ -144,8 +133,6 @@ body {
   font-size: 30px;
   justify-self: left;
   margin-left: 250px;
-  position: relative;
-  z-index: 2;
 }
 
 /* VÔLEI */
@@ -453,4 +440,48 @@ input[type="email"] {
 .page9 { 
   background-color: #353535;
   height: 450px;
+}
+
+.logo-senai2 {
+  width: 120px;
+  margin: 20px;
+  display: flex;
+}
+
+.box-desenvolvedores {
+  justify-self: left;
+  margin-left: 400px;
+  margin-top: 150px;
+}
+
+.desenvolvido-por {
+  font-family: "Arial Rounded MT Bold", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo-github {
+  height: 20px;
+  justify-self: left;
+}
+
+a {
+  font-family: "Arial Rounded MT Bold", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #bababa;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9b9b9b;
+}
+
+.logo-insta {
+  height: 28px;
+}
+
+.instagram-senai {
+  margin-bottom: 10px;
 }
