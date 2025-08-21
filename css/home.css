@@ -9,6 +9,8 @@ body {
   justify-content: center;
 }
 
+/* CAPA */
+
 .page1 { 
   background-image: url("../assets/bg1.png");  
   background-size: cover;
@@ -50,6 +52,8 @@ body {
   margin-top: 250px;
 }
 
+/* INTRODUÇÃO */
+
 .page2 { 
   background: url("../assets/bg2.png"); 
   background-size: cover;
@@ -79,6 +83,8 @@ body {
   margin-right: 150px;
 }
 
+/* FUTEBOL */
+
 .page3 { 
   background: url("../assets/bg3.png");
   background-size: cover;
@@ -88,6 +94,15 @@ body {
   width: 100%;
 }
 
+.futebol {
+  text-align: left;
+  font-family: Arial Black;
+  font-size: 80px;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 250px;
+}
+
 .futebol1 {
   white-space: pre-line;
   text-align: left;
@@ -95,7 +110,7 @@ body {
   font-size: 30px;
   justify-self: left;
   margin-left: 150px;
-  margin-top: 350px;
+  margin-top: 20px;
 }
 
 .futebol2 {
@@ -107,6 +122,8 @@ body {
   margin-left: 150px;
 }
 
+/* VÔLEI */
+
 .page4 { 
   background: url("../assets/bg4.png");
   background-size: cover;
@@ -116,6 +133,15 @@ body {
   width: 100%;
 }
 
+.volei {
+  text-align: left;
+  font-family: arial black;
+  font-size: 80px;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 300px;
+}
+
 .volei1 {
   white-space: pre-line;
   text-align: left;
@@ -123,7 +149,7 @@ body {
   font-size: 30px;
   justify-self: left;
   margin-left: 150px;
-  margin-top: 350px;
+  margin-top: 85px;
 }
 
 .volei2 {
@@ -134,6 +160,8 @@ body {
   justify-self: left;
   margin-left: 150px;
 }
+
+/* NATAÇÃO */
 
 .page5 { 
   background: url("../assets/bg5.png");
@@ -163,6 +191,8 @@ body {
   margin-left: 150px;
 }
 
+/* TÊNIS */
+
 .page6 { 
   background: url("../assets/bg6.png");
   background-size: cover;
@@ -191,6 +221,8 @@ body {
   margin-left: 150px;
 }
 
+/* FORMULÁRIO */
+
 .page7 { 
   background: lab(34.88% 0 0); color: rgb(39, 39, 39);
   height: 990PX;
@@ -214,10 +246,14 @@ body {
   
 }
 
+/* AAPM */
+
 .page8 { 
   background: #757575; color: black;
   
 }
+
+/* RODAPÉ */
 
 .page9 { 
   background: #222222; color: white;
