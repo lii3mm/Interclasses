@@ -75,6 +75,7 @@ body {
   justify-self: right;
   margin-right: 250px;
   margin-top: 350px;
+  text-shadow: 5px 5px 5px black;
 }
 
 .intro2 {
@@ -84,6 +85,7 @@ body {
   font-size: 30px;
   justify-self: right;
   margin-right: 250px;
+  text-shadow: 5px 5px 5px black;
 }
 
 /* FUTEBOL */
@@ -398,9 +400,9 @@ input[type="email"] {
   height: 970px;
 }
 
-.logo-aapm {
+.logo-aapm2 {
   display: flex;
-  margin-left: 300px;
+  margin-left: 200px;
   margin-top: 350px;
   height: 250px;
 }
@@ -409,7 +411,6 @@ input[type="email"] {
   display: flex;
   flex-direction: row;
   gap: 10rem;
-  
 }
 
 .box-aapm {
@@ -421,7 +422,6 @@ input[type="email"] {
   padding: 5rem;
 }
 
-
 .sobre-aapm {
   white-space: pre-line;
   font-family: "Arial Rounded MT Bold", "Trebuchet MS", Verdana, sans-serif;
@@ -430,10 +430,7 @@ input[type="email"] {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  letter-spacing: 2px;
-}
-
-
+  letter-spacing: 2px;}
 
 /* RODAPÉ */
 
@@ -450,8 +447,9 @@ input[type="email"] {
 
 .box-desenvolvedores {
   justify-self: left;
-  margin-left: 400px;
+  margin-left: 500px;
   margin-top: 150px;
+
 }
 
 .desenvolvido-por {
@@ -478,10 +476,16 @@ a:hover {
   color: #9b9b9b;
 }
 
+.box-instagram {
+  margin-top: -25px;
+  justify-self: right;
+  margin-right: 500px;
+}
+
 .logo-insta {
-  height: 28px;
+  height: 20px;
 }
 
 .instagram-senai {
-  margin-bottom: 10px;
+  
 }
