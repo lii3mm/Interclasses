@@ -9,7 +9,7 @@ class Modalidade(models.Model):
     
 class Usuario(models.Model):
     nome = models.TextField(max_length=100, null=False)
-    turma = models.CharField(max_length=3, null=False)
+    turma = models.CharField(max_length=50, null=False)
     telefone = models.CharField(max_length=50, null=False)
     email = models.CharField(max_length=100, null=False)
 
