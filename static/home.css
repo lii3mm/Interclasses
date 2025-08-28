@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 body {
   margin: 0;
   padding: 0;
@@ -14,7 +12,7 @@ body {
 /* CAPA */
 
 .page1 { 
-  background-image: url("../assets/bg1.png");  
+  background-image: url("/static/assets/bg1.png");  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,8 +20,16 @@ body {
   width: 100%;
 }
 
-.logo-senai {
-  width: 120px;
+.frame-aapm {
+  background-color: rgba(153, 153, 153, 0.5);
+  width: 250px;
+  margin-left: 30px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.logo-aapm2 {
+  width: 200px;
   margin: 20px;
   display: flex;
 }
@@ -34,7 +40,7 @@ body {
   font-size: 80px;
   justify-self: left;
   margin-left: 250px;
-  margin-top: 300px;
+  margin-top: 270px;
   margin-bottom: 0;
 }
 
@@ -51,13 +57,13 @@ body {
   font-size: 30px;
   justify-self: left;
   margin-left: 250px;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 /* INTRODUÇÃO */
 
 .page2 { 
-  background: url("../assets/bg2.png"); 
+  background: url("/static/assets/bg2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +97,7 @@ body {
 /* FUTEBOL */
 
 .page3 { 
-  background: url("../assets/bg3.png");
+  background: url("/static/assets/bg3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,7 +146,7 @@ body {
 /* VÔLEI */
 
 .page4 { 
-  background: url("../assets/bg4.png");
+  background: url("/static/assets/bg4.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,10 +192,10 @@ body {
   margin-left: 250px;
 }
 
-/* NATAÇÃO */
+/* TÊNIS DE MESA */
 
 .page5 { 
-  background: url("../assets/bg5.png");
+  background: url("/static/assets/bg5.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -197,7 +203,7 @@ body {
   width: 100%;
 }
 
-.natacao {
+.pingpong {
   color: rgb(230, 230, 230);
   text-shadow: 0 0 2px rgb(221, 221, 221),
                0 0 2px rgb(221, 221, 221),
@@ -211,7 +217,7 @@ body {
   margin-bottom: inherit;
 }
 
-.natacao1 {
+.pingpong1 {
   color: rgb(202, 202, 202);
   text-shadow: 5px 5px 5px black;
   white-space: pre-line;
@@ -224,7 +230,7 @@ body {
   margin-top: 20px;
 }
 
-.natacao2 {
+.pingpong2 {
   color: rgb(202, 202, 202);
   text-shadow: 5px 5px 5px black;
   white-space: pre-line;
@@ -238,7 +244,7 @@ body {
 /* TÊNIS */
 
 .page6 { 
-  background: url("../assets/bg6.png");
+  background: url("/static/assets/bg6.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
